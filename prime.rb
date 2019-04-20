@@ -2,6 +2,7 @@
 def prime?(integer)
   if integer < 0
   return false
+  elsif integer >0
   (2...integer).each do |i|
     if (integer % i).zero?
       return false
