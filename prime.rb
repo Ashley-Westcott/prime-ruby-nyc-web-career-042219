@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(integer)
-  false if integer < 0
+  if integer < 0
   return false
   (2...integer).each do |i|
     if (integer % i).zero?
